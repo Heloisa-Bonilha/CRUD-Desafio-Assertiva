@@ -1,0 +1,11 @@
+DROP DATABASE banco_de_teste;
+CREATE DATABASE banco_de_teste;
+USE banco_de_teste;
+CREATE TABLE tabela_teste(
+id INT AUTO_INCREMENT,
+nome VARCHAR(254) NOT NULL,
+login VARCHAR(254) NOT NULL,
+senha VARBINARY(32) NOT NULL,
+data_cadastro TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
+PRIMARY KEY (id));
+SELECT * FROM tabela_teste;
