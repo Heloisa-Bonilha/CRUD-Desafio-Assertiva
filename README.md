@@ -20,8 +20,6 @@ Tabela de conteúdos
    * [Funcionalidades](#-funcionalidades)
    * [Como executar o projeto](#-como-executar-o-projeto)
      * [Pré-requisitos](#pré-requisitos)
-     * [Rodando o Backend](#-rodando-o-backend)
-     * [Rodando a aplicação Banco de Dados](#-rodando-a-aplicação-banco-de-dados)
    * [Tecnologias](#-tecnologias)
    * [Contribuidores](#-contribuidores)
    * [Autor](#-autor)
@@ -64,14 +62,18 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 Após tudo instalado, você deverá criar 2 bancos de dados no mySQL, um para a sua aplicação e o outro para o teste no JUnit. Os scrypts para a criação desses bancos de dados são: Heloísa_Bonilha_DB_Desafio_Assertiva.sql (banco principal) e Banco_de_teste_Heloísa_Bonilha.sql (banco de testes).
 
-Clone este repositório ($ git clone)
+Clone este repositório ($ git clone git@github.com:Heloisa-Bonilha/CRUD-Desafio-Assertiva.git)
 
 Para que o projeto rode sem erros, é preciso instalar o connector java mysql, podendo ser encontrado aqui: [Connector MySQL](https://repo1.maven.org/maven2/mysql/mysql-connector-java/8.0.23/mysql-connector-java-8.0.23.jar), após a instalação, você deve incluir este arquivo no seu projeto.
+
 No Eclipse:
+
 Clica com botão direito no projeto --> Propriedades --> Java Build Path --> Libraries no ClassPath --> Add External JARS e adiciona o **mysql-connector-java-8.0.23.jar**
 
 Você também irá precisar adicionar a library do JUnit no projeto, deste jeito: 
+
 No Eclipse:
+
 Clica com botão direito no projeto --> Propriedades --> Java Build Path --> Libraries no ClassPath --> Add Library --> JUnit 4 
 
 ---
