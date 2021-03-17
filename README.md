@@ -55,12 +55,25 @@ Este projeto é divido em duas partes:
 1. Backend (pasta source) 
 2. Frontend (pasta view)
 
-💡Para executar a aplicação, basta rodar a classe Principal.
+💡Para executar a aplicação, basta rodar a classe Principal que está localizada em src/source.
 
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [JAVA](https://www.java.com/pt-BR/), [Eclipse](https://www.eclipse.org/downloads/) ou algum outro editor que rode aplicação Java e JDBC, [JUnit](https://junit.org/junit5/), [MySQL](https://www.mysql.com/).
+[Git](https://git-scm.com), [JAVA](https://www.java.com/pt-BR/), [Eclipse](https://www.eclipse.org/downloads/) ou algum outro editor que rode aplicação Java e JDBC, [JUnit](https://junit.org/junit5/) versão 4, [MySQL](https://www.mysql.com/).
+
+Após tudo instalado, você deverá criar 2 bancos de dados no mySQL, um para a sua aplicação e o outro para o teste no JUnit. Os scrypts para a criação desses bancos de dados são: Heloísa_Bonilha_DB_Desafio_Assertiva.sql (banco principal) e Banco_de_teste_Heloísa_Bonilha.sql (banco de testes).
+
+Clone este repositório ($ git clone)
+
+Para que o projeto rode sem erros, é preciso instalar o connector java mysql, podendo ser encontrado aqui: [Connector MySQL](https://repo1.maven.org/maven2/mysql/mysql-connector-java/8.0.23/mysql-connector-java-8.0.23.jar), após a instalação, você deve incluir este arquivo no seu projeto.
+No Eclipse:
+Clica com botão direito no projeto --> Propriedades --> Java Build Path --> Libraries no ClassPath --> Add External JARS e adiciona o **mysql-connector-java-8.0.23.jar**
+
+Você também irá precisar adicionar a library do JUnit no projeto, deste jeito: 
+No Eclipse:
+Clica com botão direito no projeto --> Propriedades --> Java Build Path --> Libraries no ClassPath --> Add Library --> JUnit 4 
+
 ---
 
 ## 🛠 Tecnologias
